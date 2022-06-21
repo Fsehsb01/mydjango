@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html";charset="UTF-8" />
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% autoescape off %}
+{%   for q in q  %}
+    <h3>{{ q.name|safe }}</h3>
+    <h3>{{ q.namet|safe }}</h3>
+{% endfor %}
+<a href="{% url 'myweb:look' %}">添加</a>
+{% endautoescape %}
+</body>
+</html>

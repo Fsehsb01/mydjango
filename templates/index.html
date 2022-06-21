@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if q %}
+    <ul>
+    {% for lo in q %}
+        <li><a href="{% url 'myweb:detail' lo.id %}">{{ lo.name|safe }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>查看失败</p>
+{% endif %}
+</body>
+</html>

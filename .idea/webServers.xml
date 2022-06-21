@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b2dd0c9e-9c54-4dab-85ee-ea6b28e9bacb" name="web" url="www.zhamai.xyz">
+        <fileTransfer mountedRoot="C:\Users\27142\PycharmProjects\django01" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
