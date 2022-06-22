@@ -8,7 +8,7 @@
 {% if q %}
     <ul>
     {% for lo in q %}
-        <li><a href="{% url 'myweb:detail' lo.id %}">{{ lo.name|safe }}</a></li>
+        <li><a href="{% url 'myweb:detail'  %}">{{ lo.name|safe }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
